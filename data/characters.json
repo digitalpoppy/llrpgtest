@@ -1,0 +1,109 @@
+{
+  "config": {
+    "imagesPath": "./img/characters/"
+  },
+  "characters": {
+    "game": {
+      "style": {
+        "textCss": {
+          "fontStyle": "italic"
+        }
+      },
+      "name": "",
+      "color": "white"
+    },
+    "player": {
+      "style": {
+        "color": "#72A1A3"
+      },
+      "name": "Ghost"
+    },
+    "poppy": {
+      "sprites": {
+        "talk": "poppy.jpg"
+      },
+      "style": {
+        "color": "red"
+      },
+      "name": "The Hack Faux-Deep Fraud With No Talent That Nobody Likes And She Smells Bad And Nobody Likes Her"
+    },
+    "nightmare": {
+      "sprites": {
+        "talk": "nightmare.png"
+      },
+      "style": {
+        "color": "#B3AD7F"
+      },
+      "name": "The Nightmare"
+    },
+    "lovely": {
+      "sprites": {
+        "talk": "lovely.png"
+      },
+      "style": {
+        "color": "#AC356A"
+      },
+      "name": "Lovely Lady"
+    },
+    "nasty": {
+      "sprites": {
+        "talk": "nasty.png"
+      },
+      "style": {
+        "color": "#792F28"
+      },
+      "name": "Nasty Girl"
+    },
+    "orb": {
+      "sprites": {
+        "talk": "orb.png"
+      },
+      "style": {
+        "color": "#47B59F"
+      },
+      "name": "Orb"
+    },
+    "writer": {
+      "sprites": {
+        "talk": "writer.png"
+      },
+      "name": "The Pulp Writer"
+    },
+    "nerd": {
+      "sprites": {
+        "talk": "nerd.jpg"
+      },
+      "name": "The Weird Nerd"
+    },
+    "blackeye": {
+      "sprites": {
+        "talk": "blackeye.png"
+      },
+      "name": "The Sinner"
+    },
+    "shepherd": {
+      "sprites": {
+        "talk": "poppy_idle.png"
+      },
+      "name": "The Weapon"
+    },
+    "mechanic": {
+      "sprites": {
+        "talk": "mechanic.png"
+      },
+      "name": "The Raven"
+    },
+    "shopkeeper": {
+      "sprites": {
+        "talk": "shopkeeper.png"
+      },
+      "name": "The Shopkeeper"
+    },
+    "librarian": {
+      "sprites": {
+        "talk": "librarian.png"
+      },
+      "name": "The Librarian"
+    }
+  }
+}

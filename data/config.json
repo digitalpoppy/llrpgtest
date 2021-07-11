@@ -1,0 +1,180 @@
+{
+  "gameTitle": "Lovely Lady RPG",
+  "images": {
+    "defaultBg": "img/backgrounds/default-bg.jpg",
+    "mapBg": "img/backgrounds/map-bg.jpg",
+    "placeholderButton": "img/ui/button-placeholder.png"
+  },
+  "layout": {
+    "backgrounds": {
+      "width": 880,
+      "height": 720
+    },
+    "minTextWidth": 400,
+    "maxTextWidth": 800
+  },
+  "screens": {
+    "default": {
+      "background": "defaultBg"
+    },
+    "game_map": {
+      "background": "mapBg",
+      "buttons": ["button_shepherd_intro", "button_bluehills", "button_church", "button_shop_intro", "button_library_intro", "button_mechanic_intro","button_blackeye_apartment", "button_home_fixHouse", "button_brokenVase", "button_book_handbook", "button_book_history"]
+    }
+  },
+  "buttons": {
+    "button_shepherd_intro": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 100,
+        "top": 100,
+        "width": 64,
+        "height": 64
+      },
+      "action": "shepherd_intro"
+    },
+    "button_bluehills": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 200,
+        "top": 100,
+        "width": 64,
+        "height": 64
+      },
+      "action": "bluehills"
+    },
+    "button_church": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 300,
+        "top": 15,
+        "width": 64,
+        "height": 64
+      },
+      "action": "church"
+    },
+    "button_shop_intro": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 100,
+        "top": 200,
+        "width": 64,
+        "height": 64
+      },
+      "action": "shop_intro"
+    },
+    "button_library_intro": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 200,
+        "top": 200,
+        "width": 64,
+        "height": 64
+      },
+      "action": "library_intro"
+    },
+    "button_mechanic_intro": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 300,
+        "top": 200,
+        "width": 64,
+        "height": 64
+      },
+      "action": "mechanic_intro"
+    },
+    "button_blackeye_apartment": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 400,
+        "top": 200,
+        "width": 64,
+        "height": 64
+      },
+      "action": "blackeye_apartment"
+    },
+    "button_home_fixHouse": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 100,
+        "top": 300,
+        "width": 64,
+        "height": 64
+      },
+      "action": "home_fixHouse"
+    },
+    "button_brokenVase": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 200,
+        "top": 300,
+        "width": 64,
+        "height": 64
+      },
+      "action": "brokenVase"
+    },
+    "button_book_handbook": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 300,
+        "top": 300,
+        "width": 64,
+        "height": 64
+      },
+      "action": "book_handbook"
+    },
+    "button_book_history": {
+      "enabled": false,
+      "background": "placeholderButton",
+      "position": {
+        "left": 400,
+        "top": 400,
+        "width": 64,
+        "height": 64
+      },
+      "action": "book_history"
+    }
+  },
+  "skills": {
+    "lovely": {
+      "name": "Lovely Lady",
+      "description": "The Lovely Lady."
+    },
+    "nasty": {
+      "name": "Nasty Girl",
+      "description": "The Nasty Girl."
+    },
+    "orb": {
+        "name": "Orb",
+        "description": "Orb."
+      },
+    "nightmare": {
+        "name": "The Nightmare",
+        "description": "The Nightmare."
+    }
+  },
+  "scripts": [
+    "data/intro.rpy",
+    "data/writer_intro.rpy"
+  ],
+  "sound": {
+    "test": {
+      "path": "sfx/test.wav"
+    }
+  },
+  "music": {
+    "test": {
+      "path": "music/test.wav"
+    }
+  }
+}
